@@ -2,9 +2,38 @@ public class Main {
     public static void main(String[] args) {
 
         //es1();
-        es2();
+        //es2();
+        es3();
 
     }
+
+
+    private static void es3()
+    {
+        int array1[] = new int[10];
+        for (int i = 0; i < array1.length; i++) {
+            array1[i] = i;
+
+            System.out.println("from array 1D : "+array1[i]);
+        }
+        int array2[][] = new int[10][5];
+
+        for (int i = 0; i < array2.length; i++) {
+            for (int j = 0; j < array2[i].length; j++) {
+                array2[i][j] = i+j;
+                System.out.println("from array 2D : "+array2[i][j]);
+            }
+        }
+
+
+
+
+
+
+
+    }
+
+
 
     private static void es2()
     {
