@@ -3,8 +3,8 @@ public class Main {
 
         //es1();
         //es2();
-        es3();
-
+        //es3();
+        es4();
     }
 
 
@@ -33,7 +33,23 @@ public class Main {
 
     }
 
+    private static void  es4()
+    {
+        for (int i = 0; i < 10; i++) {
 
+            if (i == 9)
+            {
+                System.out.println("loop continue");
+                continue;
+            }
+
+            if (i == 8)
+            {
+                System.out.println("loop break");
+                break;
+            }
+        }
+    }
 
     private static void es2()
     {
