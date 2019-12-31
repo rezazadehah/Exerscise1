@@ -1,7 +1,36 @@
 public class Main {
     public static void main(String[] args) {
 
-        es1();
+        //es1();
+        es2();
+
+    }
+
+    private static void es2()
+    {
+        for (int i = 0; i < 10; i++) {
+            System.out.println("from for loop : "+i);
+        }
+
+        int count = 0;
+
+        while (true)
+        {
+            count++;
+
+            System.out.println("from while loop : "+count);
+            if (count == 10)
+            {
+                break;
+            }
+        }
+
+        count = -1;
+        do {
+            count++;
+            System.out.println("from do while loop : "+count);
+        }
+        while (count < 10);
 
     }
 
